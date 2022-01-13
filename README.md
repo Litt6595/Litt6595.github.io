@@ -1,2 +1,2 @@
 # Litt6595.github.io
-School email username.
+BACS 200 Steven Sanchez.
