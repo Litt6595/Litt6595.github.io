@@ -4,4 +4,8 @@ h1
   background-color: "rgb(0, 0, 0)";
   font-style:bold;
 }
+p 
+{
+  font-family: "Trebuchet MS", Trebuchet MS, sans-serif;
+}
 </style>
