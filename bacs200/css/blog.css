@@ -12,4 +12,9 @@ p
 {
   font-family: "Trebuchet MS", Trebuchet MS, sans-serif;
 }
+window.onload = function() {
+   let myiFrame = document.getElementById("myiFrame");
+   let doc = myiFrame.contentDocument;
+   doc.body.innerHTML = doc.body.innerHTML + '<style>/******* Put your styles here *******</style>';
+}
 </style>
