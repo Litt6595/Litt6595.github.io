@@ -1,7 +1,9 @@
 <style>
-*
-{
-  backround-color: "A9A9A9"
+* {
+  
+ backround-color: "A9A9A9";
+  opacity: 0.6;
+}
 }
   h1
 {
@@ -12,26 +14,5 @@ p
 {
   font-family: "Trebuchet MS", Trebuchet MS, sans-serif;
 }
-window.onload = function() {
-   let myiFrame = document.getElementById("myiFrame");
-   let doc = myiFrame.contentDocument;
-   doc.body.innerHTML = doc.body.innerHTML + 
-  <style>
-  <ul>
-<li><a href="https://www.ted.com/">Ted Talks</a>
- 
-<li><iframe width= 100% height="315" src="https://www.youtube.com/embed/R8mZ6SbLMbo" title="YouTube video player" frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  
- <li><iframe width="100%" height="315" src="https://www.youtube.com/embed/YoJnkEXRXZE" title="YouTube video player" frameborder="0" 
-         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  
- <li><a href="https://www.youtube.com/channel/UCvhsiQGy_zcNCiSbeXEjhLg">RSA Animates</a>
-  
-  <li><iframe width="100%" height="315" src="https://www.youtube.com/embed/A3oIiH7BLmg" title="YouTube video player" frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  
- <li> <iframe width="560" height="315" src="https://www.youtube.com/embed/Ql3Jp3ydfE8" title="YouTube video player" frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
-  </ul>
+
   </style>'
